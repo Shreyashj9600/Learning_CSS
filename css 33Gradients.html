@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css gradient</title>
+    <style>
+        body {
+            font-family: arial;
+        }
+
+        #box {
+            width: 700px;
+            height: 250px;
+            padding: 20px;
+            border: 3px solid black;
+            background: linear-gradient(to bottom, orange, rgb(255, 255, 255), rgba(0, 0, 255, 0.5), green);
+            margin: 10px;
+        }
+
+        #box2 {
+            width: 700px;
+            height: 250px;
+            padding: 20px;
+            border: 3px solid black;
+            background: radial-gradient(closest-side at 10% 90% red, yellow, orange blue,pink);
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Css gradient</h1>
+
+    <div id="box">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus reprehenderit tenetur dolorum in illum
+        asperiores sapiente aut veniam aliquam rerum, pariatur praesentium eaque odio sint illo error voluptas molestias
+        libero.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic repellendus culpa architecto consectetur temporibus
+        voluptates ex est ad quia natus distinctio assumenda itaque accusamus neque, minus dolorum exercitationem
+        corporis. Et.
+    </div>
+    <div id="box">
+    </div>
+</body>
+
+</html>
