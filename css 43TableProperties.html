@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Layout</title>
+    <style>
+        body{
+            font-family:arial;
+        }
+        table{
+            width: 300px;
+            border-collapse: collapse;
+        }
+        table,td,th{
+            border: 1px solid black;
+        }
+        td,th{
+            vertical-align:top;
+            padding: 5px 10px;
+        }
+        caption{
+            caption-side: top;
+            
+        }
+        tr:hover{
+            background: #f2f2f2;
+        }
+        tr:nth-child(even){
+            background: tan;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Css table properties</h1>
+
+    <table>
+        <caption>Employee Record</caption>
+        <tr>
+            <th>Frist name</th>
+            <th>Lastname</th>
+            <th>Saving</th>
+        </tr>
+        <tr>
+            <td>mohan Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam, odio?</td>
+            <td>kumar</td>
+            <td>$100</td>
+        </tr>
+        <tr>
+            <td>ram</td>
+            <td>tivari</td>
+            <td>$200</td>
+        </tr>
+        <tr>
+            <td>sanket</td>
+            <td>bhosale</td>
+            <td>$300</td>
+        </tr>
+    </table>
+</body>
+</html>
