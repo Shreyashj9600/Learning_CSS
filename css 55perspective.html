@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>perspective</title>
+  <style>
+    body {
+      font-family: arial;
+    }
+
+    .base {
+      width: 350px;
+      height: 250px;
+      background: pink;
+      text-align: center;
+      margin: 100px 0 0 100px;
+      perspective: 800px;
+    }
+
+    #box {
+      width: 350px;
+      height: 250px;
+      background: darkolivegreen;
+      transform: rotateX(60deg);
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Css perspective</h1>
+
+  <div class="base">
+    <div id="box">Css perspective</div>
+  </div>
+</body>
+
+</html>
