@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>border-image</title>
+    <style>
+        body {
+            font-family: arial;
+
+        }
+
+        #box {
+            width: 300px;
+            height: 300px;
+            border: 25px solid black;
+            text-align: justify;
+            padding: 20px;
+            border-image-source: url(border\ png.png);
+            border-image-slice: 170;
+            border-image-repeat: round;
+            border-image-outset: 10px;
+            border-image: linear-gradient(red,yellow) 25 ;
+            /* border-image-slice:
+                15 15 15 15;
+            border-image-width:
+                10px 10px 10px 10px;
+            border-image-outset:
+                0px 0px 0px 0px;
+            border-image-repeat:
+                round round;
+            border-image-source:
+                url("https://mdn.github.io/css-examples/tools/border-image-generator/border-image-3.png");
+            border-style:
+                solid; */
+        }
+    </style>
+</head>
+
+<body>
+    <h1> CSS Border border-image</h1>
+
+    <div id="box">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, molestias eius! Nulla ratione provident nesciunt
+        inventore eius facere odio, voluptatibus explicabo ducimus tempore non iste ab molestiae debitis ipsam ex culpa
+        placeat quibusdam veniam quasi necessitatibus molestias. Repellat, iusto modi?
+    </div>
+</body>
+
+</html>

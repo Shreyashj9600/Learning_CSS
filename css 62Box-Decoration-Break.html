@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box-Decoration-Box</title>
+    <style>
+        body{
+            font-family: Arial;
+        }
+        span{
+            
+            background-image: linear-gradient(red,yellow);
+            font-size: 21px;
+            line-height: 40px;
+            border: 2px solid black;
+            -webkit-box-decoration-break:clone;
+            box-decoration-break:clone ;
+            padding: 5px;
+            
+
+        }
+    </style>
+</head>
+<body>
+    <h1 style="margin-bottom: 50px;">Css-Box-decoration</h1>
+
+    <span>Lorem ipsum<br> dolor sit amet consectetur <br>adipisicing elit. Ex officia delectus<br> molestiae odio recusandae necessitatibus!</span>
+</body>
+</html>
