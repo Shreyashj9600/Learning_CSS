@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descendant-selectors</title>
+    <style>
+        body{
+            font-family: arial;
+        }
+        #box{
+            border:2px solid black;
+            padding: 10px;
+        }
+       #box p{
+            color:red;
+        }
+       div p span {
+            color:blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <h1> css Descendant-selectors</h1>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, in quidem nulla sequi enim dolores.</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus necessitatibus accusantium tempore. Deleniti, illo quis.</p>
+
+    <div id="box">
+        <span>Hello</span>
+        <p>Lorem, ipsum dolor<span>Lorem ipsum dolor sit.</span> sit amet consectetur adipisicing elit. Sequi, totam commodi enim ex minima nihil, aspernatur explicabo, illo porro corrupti harum cupiditate consequatur.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque odio error voluptatum fuga praesentium veritatis veniam amet voluptas fugit quis?</p>
+    </div>
+</body>
+</html>

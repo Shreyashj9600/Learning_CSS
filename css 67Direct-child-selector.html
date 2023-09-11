@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css direct child selector</title>
+    <style>
+        body {
+            font-family: arial;
+        }
+
+        #box {
+            border: 2px solid black;
+            padding: 10px;
+            margin-top: 50px;
+        }
+
+        #box2 {
+            border: 2px solid red;
+        }
+       li{
+        color: green;
+    }
+    #list > li{
+        color: red;
+    }
+    </style>
+</head>
+
+<body>
+    <h1>Css direct child selector </h1>
+
+    <ul id="list">
+        <li>Lorem ipsum dolor sit.</li>
+        <li>Lorem ipsum dolor sit.</li>
+        <li>Lorem ipsum dolor sit.
+            <ul>
+                <li>Lorem, ipsum.</li>
+                <li>Lorem, ipsum.</li>
+                <li>Lorem, ipsum.</li>
+            </ul>
+        </li>
+        <li>Lorem ipsum dolor sit.</li>
+        <li>Lorem ipsum dolor sit amet.</li>
+    </ul>
+    <div id="box">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero repellat voluptas, rerum quis culpa sapiente
+            fugiat minus voluptates corporis aliquam.</p>
+        <div id="box2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores aliquam facere aliquid, consequatur
+            minima eveniet iste! Accusamus velit recusandae adipisci.
+
+        </div>
+    </div>
+
+</body>
+
+</html>
