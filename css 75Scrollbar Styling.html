@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Scrollbar Styling</title>
+    <style>
+        body{
+            font: 13px/22px arial;
+            text-align: center;
+        }
+        
+        
+        #test{
+            height: 400px;
+            width: 250px;
+            margin: 50px 20px;
+            border:1px solid black;
+            overflow: auto;
+
+        }
+        #test::-webkit-scrollbar{
+              width: 20px;
+        }
+        #test::-webkit-scrollbar-track{
+            border-radius: 20px;
+            background: gold;
+        }
+        #test::-webkit-scrollbar-thumb{
+              border-radius: 10px;
+              background: red;
+        } 
+
+    </style>
+</head>
+
+<body>
+    <h1>CSS Scrollbar Styling</h1>
+    
+    
+    <div id="test">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus nam quisquam illum atque, libero, eaque,
+        reprehenderit laudantium aliquid quibusdam ex harum necessitatibus quia iusto corporis perferendis nulla
+        dignissimos quasi ab quae. Sed, animi sequi, suscipit ipsum repellat sit aperiam dolor quisquam quas commodi
+        quis dolore adipisci itaque atque in rerum qui! Doloribus debitis id sunt dolore. Culpa laudantium saepe in
+        impedit perferendis quos consequatur adipisci nisi libero ipsum! Molestiae, quae harum! Cum a doloremque
+        quibusdam cupiditate asperiores laudantium, nesciunt quaerat praesentium, laborum tempora modi numquam soluta,
+        ipsum animi at rerum sit facilis quis. Unde enim quae tenetur vitae alias iusto neque molestias? Impedit debitis
+        adipisci a reiciendis aperiam eum aspernatur dolor non veniam, quisquam nihil eius doloremque consequatur? In ab
+        quaerat, inventore tenetur repudiandae perspiciatis asperiores dolor totam voluptate, dolore dolorum voluptatum
+        nemo quas, unde nostrum voluptatibus at sunt quia. Facere eos, neque dolores odio ipsa corrupti. Nihil impedit
+        provident nulla aspernatur eligendi perspiciatis vero, error harum? Quasi ex, tempore vero a exercitationem
+        ipsum illum reiciendis hic ratione! Consequatur amet fugit magnam necessitatibus sint omnis odit, quos
+        perferendis iusto iste numquam minus illo ducimus deleniti animi recusandae! Vitae vero sed minima, delectus
+        cupiditate ut officiis vel eum et eaque iure!
+    </div>
+</body>
+
+</html>

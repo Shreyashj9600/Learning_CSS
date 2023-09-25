@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter-Increment</title>
+    <style>
+        body{
+            font: 15px/20px arial;
+            counter-reset: my-counter 0;
+        }
+        h1{font-size: 40px; margin-bottom: 50px;}
+        h2::before{
+            content: "chapter"  counter(my-counter,upper-roman) " : ";
+            counter-increment: my-counter 1 ;
+            color:white;
+            background: red;
+            display: inline-block;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Css Counter-Increment</h1>
+
+    <h2>Lorem ipsum dolor sit.</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi magnam veniam pariatur fugiat ullam blanditiis repellendus, dolorem minima accusantium iusto, ducimus aspernatur magni ipsum tenetur, sequi perspiciatis dolores illum? Natus.</p>
+
+<h2>Lorem ipsum dolor sit.</h2>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta explicabo molestias numquam culpa veritatis tenetur saepe facere. Voluptatem, id repudiandae, voluptates ea inventore, aut atque aliquid vero commodi in rerum.</p>
+
+<h2>Lorem ipsum dolor sit.</h2>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum alias in nihil natus quam unde fugiat ratione, qui excepturi reiciendis, maxime quaerat aperiam doloribus odio nobis nam facere inventore sit.</p>
+
+    <h2>Lorem ipsum dolor sit.</h2>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam quam enim eaque tenetur hic dolorem dolor voluptatibus, veniam ratione, iste minima vitae consequatur fugiat neque eum quis, dolorum deserunt temporibus!</p>
+</body>
+</html>

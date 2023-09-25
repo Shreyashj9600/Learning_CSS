@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter-increment</title>
+    <style>
+        body{
+            font:20px/25px arial;
+            counter-reset: section;
+            
+        }
+        h1{
+            font-size: 32px;
+            color: green;
+            counter-reset: subsection;
+        }
+        h1::before{
+            content:"section" counter(section) ":" ; 
+            counter-increment: section;
+        }
+        h2::before{
+            content: counter(section) ":" counter(subsection);
+        }
+        
+    </style>
+</head>
+
+<body>
+    <h1>HTML and CSS</h1>
+    <h2>HTML Tutorial</h2>
+    <h2>Bootstrap TUtorial</h2>
+    <hr>
+
+    <h1>
+        Java script
+    </h1>
+    <h2>javaScript Tutorial</h2>
+    <h2>jQuery tutorial</h2>
+    <h2>JSON tutorial</h2>
+    <hr>
+
+    <h1>Server side</h1>
+    <h2>SQL tutorial</h2>
+    <h2>PHP tutorial</h2>
+     
+</body>
+
+</html>

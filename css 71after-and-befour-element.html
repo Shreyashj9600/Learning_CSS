@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>::After And ::Before selector</title>
+    <style>
+        p{
+            font-size: 37px;
+            margin-top: 200px;
+        }
+        p::before{
+            content: "Hello";
+            background: red;
+            color: #fff;
+            display: block;
+            margin-bottom: 10px;
+        }
+        /* p::after{
+            content:"World";
+            background: green;
+            color:#fff;
+            display: block;
+            margin-top:10px ;
+        
+        } */
+        p:hover::after{
+            content:"World";
+            background: green;
+            color:#fff;
+            display: block;
+            margin-top:10px ;
+        
+        }
+    </style>
+</head>
+<body>
+    <h1>::After And ::Before selector</h1>
+
+    <p> Lorem ipsum dolor sit amet. </p>
+</body>
+</html>
