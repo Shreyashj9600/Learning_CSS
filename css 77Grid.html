@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Grid</title>
+    <style>
+        .container{
+           border: 1px solid black;
+           background: salmon;
+           width: 700px;
+           margin: 70px 0 0 50px;
+
+           display: grid;
+           grid-template-columns: 100px 250px auto;
+           grid-template-rows: 100px auto auto;
+          
+           grid-gap: 10px;
+
+
+
+        }
+        .items1{
+            background: orange;
+        } 
+        .items2{
+            background: yellowgreen;
+        }
+        .items3{
+            background: teal;
+        }
+        .items4{
+            background: hotpink;
+        }
+        .items5{
+            background: wheat;
+        }
+        .items6{
+            background: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Css Grid</h1>
+
+    <div class="container">
+        <div class="items items1">First</div>
+        <div class="items items2">Second</div>
+        <div class="items items3">Third</div>
+        <div class="items items4">Fourth</div>
+        <div class="items items5">Fifth</div>
+        <div class="items items6">sixth</div>
+    </div>
+</body>
+
+</html>
