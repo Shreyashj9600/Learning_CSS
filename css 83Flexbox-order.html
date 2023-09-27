@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox order</title>
+    <style>
+        body {
+            font-family: arial;
+        }
+
+        h1 {
+            padding: 0 0 0 40px;
+        }
+
+        .container{
+            background: #eee;
+            width: 600px;
+            margin: 50px auto 0;
+            padding: 10px;
+            border: 2px solid red;
+            height: 150px;
+
+            display: flex;
+            
+        }
+        .items{
+            margin: 10px;
+        }
+
+        .item1 {
+            background: wheat;
+            order: 1;
+        }
+
+        .item2 {
+            background: tomato;
+            order: -2;
+        }
+
+        .item3 {
+            background: gold;
+            order: 2;
+        }
+
+        .item4 {
+            background: forestgreen;
+            order: 1;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <h1>Flexbox-order</h1>
+
+    <div class="container">
+        <div class="items item1">One</div>
+        <div class="items item2">Two</div>
+        <div class="items item3">Three</div>
+        <div class="items item4">Four</div>
+    </div>
+</body>
+
+</html>

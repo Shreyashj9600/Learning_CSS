@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>justify-content</title>
+    <style>
+        body {
+            font-family: arial;
+        }
+
+        h1 {
+            padding: 0 0 0 40px;
+        }
+
+        .container{
+            background: #eee;
+            
+            margin: 50px;
+            padding: 10px;
+            border: 2px solid red;
+
+            display: flex;
+          
+        }
+        .items{
+            color: #eee;
+            font-size: 20px;
+            font-weight: bold;
+            text-align: center;
+            padding: 10px;
+            margin: 5px;
+            flex-grow: 1;
+        }
+
+        .item1 {
+            background: wheat;
+        }
+
+        .item2 {
+            background: tomato;flex-grow: 3;
+        }
+
+        .item3 {
+            background: gold;flex-grow: 4;
+        }
+
+        .item4 {
+            background: forestgreen;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <h1>justify-content</h1>
+
+    <div class="container">
+        <div class="items item1">One</div>
+        <div class="items item2">Two</div>
+        <div class="items item3">Three</div>
+        <div class="items item4">Four</div>
+    </div>
+</body>
+
+</html>
