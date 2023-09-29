@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Backdrop</title>
+    <style>
+        #container{
+            width: 600px;
+            height: 600px;
+            border:1px solid #000;
+            background: url(nature.jpg) no-repeat;
+             
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        #inner{
+            width: 400px;
+            height: 200px;
+            border-radius:5px ;
+            border: 2px solid #fff;
+
+            backdrop-filter: brightness(60%);
+        }
+    </style>
+</head>
+<body>
+    <h1>Backdrop</h1>
+
+    <div id="container">
+        <div id="inner">
+
+        </div>
+
+    </div>
+</body>
+</html>

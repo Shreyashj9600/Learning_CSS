@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display:table</title>
+
+
+
+
+         <!-- this is vedio no 127 from yahoo baba -->
+
+
+    <style>
+        /* start css */
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            line-height: 24px;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        #table {
+            display: table;
+            width: 800px;
+            border: 2px solid #000;
+            margin: 0 auto;
+        }
+
+        .col {
+            border: 2px solid red;
+            display: table-cell;
+            /* width: 200px;
+            height: 30px; */
+
+        }
+
+        #table-header {
+            display: table-header-group;
+            text-align: center;
+            background: lightgrey;
+        }
+
+        #table-footer {
+            display: table-footer-group;
+            text-align: center;
+            background: lightgoldenrodyellow;
+        }
+
+    #table-row{
+        display: table-row-group;
+        background-color: aqua;
+    }
+    </style>
+</head>
+
+<body>
+    <!-- start html -->
+    <h1>Display:table</h1>
+
+
+    <div id="table">
+        <div id="table-header">
+            <div class="col">Roll no</div>
+            <div class="col">Student Name</div>
+            <div class="col">Age</div>
+        </div>
+       
+         <div id="row-group">
+            <div class="row">
+            <div class="col">1</div>
+            <div class="col">Sanket</div>
+            <div class="col">21</div>
+        </div>
+        </div>
+        <div id="table">
+            <div class="col">2</div>
+            <div class="col">Yash</div>
+            <div class="col">22</div>
+        </div>
+        <div id="table">
+            <div class="col">3</div>
+            <div class="col">Aniket</div>
+            <div class="col">23</div>
+         </div>
+
+        <div id="table-footer">
+            <div class="col"></div>
+            <div class="col">Total Record</div>
+            <div class="col">3</div>
+        </div>
+    </div>
+
+</body>
+
+</html>
